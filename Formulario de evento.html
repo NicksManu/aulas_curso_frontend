@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro para Evento de Tecnologia</title>
+</head>
+<body>
+    <h1>Evento de Tecnologia 2025</h1>
+    
+    <p>Bem-vindo ao nosso evento! Por favor, preencha o formulário abaixo para se inscrever.</p>
+    
+    <form>
+        <label>Nome completo:<br>
+            <input type="text" name="nome">
+        </label><br><br>
+
+        <label>E-mail:<br>
+            <input type="email" name="email">
+        </label><br><br>
+
+        <label>Data de nascimento:<br>
+            <input type="date" name="data_nascimento">
+        </label><br><br>
+
+        <p>Gênero:</p>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label><br>
+        <label><input type="radio" name="genero" value="feminino"> Feminino</label><br>
+        <label><input type="radio" name="genero" value="outro"> Outro</label><br><br>
+
+        <p>Interesses:</p>
+        <label><input type="checkbox" name="interesses" value="frontend"> Front-end</label><br>
+        <label><input type="checkbox" name="interesses" value="backend"> Back-end</label><br>
+        <label><input type="checkbox" name="interesses" value="mobile"> Mobile</label><br><br>
+
+        <label>Estado:<br>
+            <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </label><br><br>
+
+        <label>Comentários adicionais:<br>
+            <textarea name="comentarios" rows="4" cols="40"></textarea>
+        </label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Programação do Evento</h2>
+    <table border="1">
+        <tr>
+            <th>Horário</th>
+            <th>Atividade</th>
+            <th>Palestrante</th>
+        </tr>
+        <tr>
+            <td>09:00</td>
+            <td>Abertura</td>
+            <td>João Silva</td>
+        </tr>
+        <tr>
+            <td>10:00</td>
+            <td>Workshop Front-end</td>
+            <td>Ana Costa</td>
+        </tr>
+        <tr>
+            <td>11:30</td>
+            <td>Debate Tech</td>
+            <td>Lucas Martins</td>
+        </tr>
+    </table>
+</body>
+</html>
